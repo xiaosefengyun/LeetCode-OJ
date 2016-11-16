@@ -7,14 +7,8 @@ import util.Log;
 public class Main {
     public static void main(String[] args) {
 
-        int [] a = {
-                1,
-                2,
-                1,
-                3,
-                2
-        };
-        Log.log(SingleNumber.singleNumber(a) + "");
+
+        Log.log(FizzBuzz.fizzBuzz(15).toString());
     }
 
 
