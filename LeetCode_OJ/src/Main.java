@@ -6,8 +6,6 @@ import util.Log;
  */
 public class Main {
     public static void main(String[] args) {
-
-
         Log.log(FizzBuzz.fizzBuzz(15).toString());
     }
 
